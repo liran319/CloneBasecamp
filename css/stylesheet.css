@@ -1,0 +1,147 @@
+* {
+    border: 0px solid red;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Proxima Nova", "Lucida Grande", Helvetica;
+    font-size: 16px;
+}
+
+#navigation {
+    height: 100px;
+    padding: 20px 20px 0 28px;
+    overflow: hidden;
+}
+div#nav-logo img{
+    /*margin:25px 15px;*/
+    float:left;
+    width: 160px;
+    height: 37px;
+}
+
+#loginbutton {
+    border:1px solid #105296;
+    border-bottom-width: 3px;
+    margin: 0 10px;
+    padding:7px 12px;
+    float: right;
+    background-color: #06C;
+    border-color: #105296;
+    text-align: center;
+    border-radius: 3px;
+
+}
+#loginbutton a {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-top: 10px;
+}
+div#nav-links {
+    float:right;
+    height: 20px;
+}
+div#nav-links li{
+    /*border:1px solid  red;*/
+    margin: 10px 5px;
+    height: 30px;
+    list-style-type: none;
+    display:inline-block;
+}
+.links>a {
+    font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+    font-size: 15px;
+}
+a:link{color: #0066cc;}
+a:visited{color: #0066cc;}
+a:hover{color: #0066ff;}
+a:active{color: #0066cc;}
+
+#main-body {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.sections-pic {
+    margin-top: 50px;
+    text-align:center;}
+.sections-pic img {
+    /*border:1px solid blue;*/
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.sections-pic a img {
+    width: 85%;
+    height: 85%;
+}
+.sections-pic h1 {
+    border:0px solid red;
+    color: #000;
+    margin:0;
+    padding: 20px 0;
+    font-size: 40px;
+    font-family: "Proxima Nova", "Lucida Grande", Helvetica;
+}
+.sections-text h2 {
+    border:0px solid red;
+    margin: 38px 60px 13px;
+    padding: 0 38px;
+    font-size: 25px;
+    font-family: "Proxima Nova", "Lucida Grande", Helvetica;
+}
+.sections-text p {
+    border:0px solid red;
+    font-family: "Proxima Nova", "Lucida Grande", Helvetica, sans-serif;
+    margin: 10px 50px;
+    padding: 0 50px;
+    font-size: 20px;
+    /*font-weight: 200;*/
+    font-style: normal;
+    line-height: 30px;
+}
+.sections-text p a {
+    font-size: 1em;
+}
+.sections-text p span {
+    font-size: 110%;
+}
+
+.bigbuttons {
+    margin:3em auto;
+    border:1px solid #105296;
+    border-radius: 3px;
+    border-bottom-width: 3px; 
+    width:500px;
+    padding: .75em 1.5em;
+    text-align: center;
+    background-color: #06C;
+}
+.bigbuttons a {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+}
+#loginbutton:hover,.bigbuttons:hover{background-color:#0078f1;}
+
+.sections-text ul {
+    margin: 10px 65px;
+    padding: 10px 50px;
+    line-height: 40px;
+}
+.sections-text .links a {
+    font-size: 20px;
+}
+
+footer div {
+    text-align: center;
+    padding: 18px 0;
+}
+footer div>a {
+    display: block;
+    line-height: 30px;
+}
