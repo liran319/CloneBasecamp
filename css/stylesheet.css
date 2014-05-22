@@ -141,7 +141,15 @@ footer div {
     text-align: center;
     padding: 18px 0;
 }
-footer div>a {
+footer>div>h2 {
+    font-size: 120%;
+    padding: 15px 0;
+}
+footer div li {
     display: block;
-    line-height: 30px;
+    font-size: 110%;
+    line-height: 27px;
+}
+footer div li a {
+    display: inline-block;
 }
