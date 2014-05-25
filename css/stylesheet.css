@@ -6,9 +6,6 @@
     font-size: 16px;
 }
 
-/*html, body {
-    -webkit-font-smoothing: antialiased;
-}*/
 #navigation {
     height: 100px;
     padding: 20px 20px 0 28px;
@@ -28,9 +25,10 @@ div#nav-logo {
     background-color: white;
     opacity: 0;
 }
+/*左上角logo的动画效果*/
 a #nav-logo-opacity:hover {
     /*background-color: red;*/
-    opacity: 0.1;
+    opacity: 0.2;
 }
 
 #loginbutton {
